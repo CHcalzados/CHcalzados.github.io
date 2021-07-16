@@ -131,7 +131,7 @@ body{
 	background-attachment: fixed;
     background-position: center;
     background-size: 105%;
-    animation: movimiento 8s linear infinite alternate;
+    animation: movimiento2 8s linear infinite alternate;
     display: flex;
     flex-wrap: wrap;
     min-height: 100vh;
@@ -151,6 +151,14 @@ body{
    
 }
 @keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+@keyframes movimiento2{
     from{
         background-position: bottom left;
     }
@@ -864,6 +872,9 @@ i{
 @media screen and (max-width: 980px) {
     .contenedor-nav form{
         display: none;
+    }
+    body{
+        animation: none;
     }
 }
 @media screen and (max-width: 700px) {
