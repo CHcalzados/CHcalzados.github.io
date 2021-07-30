@@ -1,0 +1,54 @@
+/*conocenos*/
+.cont__conocenos {
+    text-shadow: 1px 2px 0px black;
+    box-shadow: 0px 0px 15px 0px gray;
+    border-radius: 20px;
+    margin: 40px auto ;
+    width: 100%;
+    max-width: 75rem;
+    padding: 1.25rem 0;
+    background-color: rgba(255, 254, 253, 0.5);
+    backdrop-filter: blur(2px); 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    
+    h6{
+        color:$col-primario;
+        font-size: 3.5rem;
+        padding-bottom: .25rem;
+    }
+    .conocenos {   
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        img{
+            max-width: 35rem; 
+            padding: 10px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        p{
+            color:black;
+            font-size: 1.6rem;
+            width: 100%;
+            max-width: 37.5rem;
+            text-shadow: none;
+            letter-spacing: 1px;
+            box-sizing: border-box;
+            padding: 1.25rem;
+        }
+        iframe{
+            border-radius: 20px;
+            width: 30rem;
+            box-sizing: content-box;
+            padding: auto;
+            
+        }
+    }
+}

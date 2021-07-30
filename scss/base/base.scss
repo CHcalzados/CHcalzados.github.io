@@ -1,0 +1,125 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rancho', cursive;
+    letter-spacing: .125rem;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+h1{
+    color: white;
+    font-size: 7.3rem;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    z-index: 1000;
+}
+h3{
+    color: white;
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 2px black;
+}
+h4{
+    background-color:  rgba(241, 151, 151, 0.7);
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 2.4rem;
+    max-width: 32.25rem;
+    box-shadow: 0px 0px 15px 0px gray;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1.25rem 4.5rem;
+    backdrop-filter: blur(2px);   
+}
+p{
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-size: 2.5rem;
+    color: $col-primario;
+    text-shadow: 2px 2px 2px black;
+}
+ul {
+    padding: 0;
+}
+/* fondo */
+
+.b-2{
+	background-image: url("https://i.postimg.cc/8P0CNzvp/5447182.jpg");
+	background-repeat:repeat;
+    background-size:100%;
+    font-size: 16px;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: 105%;
+    animation: movimiento2 8s linear infinite alternate;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.pagina {
+    padding-top: 4.125rem;  
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.pagina2 {
+    padding-top: 4.125rem;  
+    max-width: 1600px;
+    margin: 0 auto 40px auto;
+    
+}
+.titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px gray;
+    border-radius: 20px;
+    display:flex;
+    max-width: 31.25rem;
+    padding: 0.875rem;
+    margin: 3.125rem auto;
+    background-image: url("https://i.postimg.cc/Hsd7NngV/fondo2.jpg");
+    background-repeat:repeat;
+	font-weight: bolder;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: 40%;
+    animation: movimiento 40s linear infinite alternate;
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+        position: bottom left;
+    }
+    to{
+        background-position: top right;
+        position: top right;
+    }
+}
+@keyframes movimiento2{
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+
+
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    background-color: $col-primario;
+    background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
+}

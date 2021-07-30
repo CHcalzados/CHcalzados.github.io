@@ -1,0 +1,29 @@
+/*barra de navegacion*/
+.nav-1{
+    position: fixed;
+    z-index: 1001;
+    
+    .navbar{
+        background: linear-gradient(to bottom, rgba(241, 151, 151, 0.9), rgba(255, 254, 253, 0.9));
+        box-shadow: 0px 0px 15px 0px gray;
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            text-shadow: 2px 2px 1px white;
+        
+        }
+
+        a{
+            font-size: 1.5rem;
+        }
+        .btn-outline-success {
+            color: #000;
+            border-color: #000;
+        }
+        .btn-outline-success:hover{
+            background: #000;
+            color: #fff;
+            border-color: #fff;
+        }
+    }
+}

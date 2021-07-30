@@ -1,0 +1,89 @@
+/*footer*/
+
+footer{
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7),rgba(241, 151, 151, 0.8));
+    box-shadow: 0px 0px 15px 0px gray;
+    z-index: 900;
+    display: flex;
+    align-self: flex-end;
+
+
+    .contenedor-footer {
+        display: grid;
+        grid-template-areas:
+        "redes contact ubicacion"
+        "re-ico cont-ico  ubi-ico" ;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
+        align-items: center;
+        justify-content: center;
+        color:black;
+        padding: 10px;
+        backdrop-filter: blur(2px);
+        width: 100vw;
+
+        .redes {
+            grid-area: redes;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            padding-top: 1.625rem;
+
+            
+        }
+        .re-ico {
+            grid-area: re-ico;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            i{
+                padding: 0 20px;
+            }
+
+            i:hover{
+                transform: scale(1.6);
+                transition: 0.5s;
+            }
+        }
+        
+        .contact {
+            grid-area: contact;
+            font-size: 1.25rem;
+            align-self: center;
+            justify-self: center;
+            font-size: 1.6rem;
+            padding-top: 1.625rem;
+        }
+        .cont-ico {
+            grid-area: cont-ico;
+            align-self: center;
+            justify-self: center;
+            font-size: 1.1rem;
+        }
+        .ubicacion {
+            grid-area: ubicacion;
+            font-size: 1.25rem;
+            align-self: center;
+            justify-self: center;
+            font-size: 1.6rem;
+            padding-top: 1.625rem;
+        }
+        .ubi-ico {
+            grid-area: ubi-ico;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: space-evenly;
+            padding: 5px 5px 2px 30px;
+            font-size: 1.1rem;
+        }
+        
+    }
+    .footer__li {
+        list-style-type: none;
+        font-size: 1.1rem;
+    }
+}

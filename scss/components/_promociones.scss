@@ -1,0 +1,151 @@
+/*Promociones*/
+.container-promo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 60px 60px;
+    grid-template-areas:
+      "promo1 promo2"
+      "promo-cuotas promo-banco";
+    width: 100%;
+    height: 30%;
+    margin: 20px auto;
+    min-height: 800px;
+    max-width: 1200px;
+
+    h6{
+        color:$col-primario;
+        font-size: 3rem;
+        text-shadow: 1px 2px 0px black;
+    }
+
+    .promo1 { 
+        grid-area: promo1; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .promo2 { 
+        grid-area: promo2; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .promo-banco { 
+        grid-area: promo-banco; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .promo-cuotas { 
+        grid-area: promo-cuotas; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .container-imgp{
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 4;
+        text-align: center;
+        margin: auto;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+            position: absolute;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px 0px gray;
+            z-index: 3;
+            min-width: 200px;
+        }
+    }
+    .promo-p1 {
+        font-size: 9rem;
+        font-weight: bolder;
+        color:white;
+        text-shadow: 10px 10px 1px $col-primario;
+        animation: oferta 4s linear infinite;
+        transition: 0.01s;
+        z-index: 100;
+        position: absolute;
+
+    }
+    
+    @keyframes oferta{
+        0%{
+    
+        }
+        25%{
+            transform: scale(1.01);
+            text-shadow: 10px 10px 1px black;
+            transform: translatey(-18px);
+        }
+        50%{
+            transform: scale(0.99);
+            text-shadow: 10px 10px 1px $col-primario;
+            transform: translate(14px);
+        }
+        75%{
+            transform: scale(1.01);
+            text-shadow: 10px 10px 1px black;
+            transform: translate(-15px);
+        }
+        100%{
+            text-shadow: 10px 10px 1px $col-primario;
+            transform: translatey(0px);
+        }
+    
+    }
+    .promo-p2 {
+        font-size: 2.2rem;
+        color:white;
+        animation: oferta2 2s linear infinite;
+        transition: 0.01s;
+        z-index: 100;
+        position: absolute;
+        bottom: 1.25rem;
+        text-shadow: 2px 2px 1px $col-primario;
+    }
+    @keyframes oferta2{
+        0% {
+            transform: scale3d(1, 1, 1);
+            }
+        50% {
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+        100% {
+            transform: scale3d(1, 1, 1);
+            }
+    }
+    
+}
+.condiciones{
+    max-width: 75rem;
+    text-align: center;
+    margin: auto;
+
+    h2{
+        color:$col-primario;
+        font-size: 3.5rem;
+        text-shadow: 1px 2px 0px black;
+        padding: 20px;
+    }
+    p{
+        font-size: 1.3rem;
+        padding: 20px;
+        font-family: 'Crimson Text', serif;
+        letter-spacing: .0625rem;
+    }
+}

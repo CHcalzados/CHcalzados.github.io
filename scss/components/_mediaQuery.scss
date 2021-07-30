@@ -1,0 +1,193 @@
+/*media query*/
+
+@media screen and (max-width: 1200px) {
+
+    /*Generales*/
+    
+    .pagina2{
+        max-width: 700px;
+    }
+
+    /**Home*/
+
+    .b-inicio section#titulo .caja__inicio h1{
+        font-size: 7.3rem;
+    }
+     /*Conocenos*/
+
+     .cont__conocenos {
+        max-width: 43.75rem;
+    }
+
+      /*Productos*/
+      .productos .contenedor__productos{
+        margin: 25px 20px;
+    }
+
+    /*Promociones*/
+
+    .container-promo{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "promo1"
+        "promo2"
+        "promo-cuotas"
+        "promo-banco";
+        max-width: 700px;
+        min-height: 1900px;
+        padding:0 auto;
+        justify-content: center;
+        align-self:center;
+        justify-content: center; 
+        align-content: center; 
+    }
+
+    /*Contacto*/
+    .contacto{
+        width: auto;
+        max-width: 700px;
+    }
+    .clientes {
+        width: auto;
+        max-width: 700px;
+    }
+
+
+    /*Footer*/
+    footer{
+        padding-top: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    /*Home*/
+    .b-inicio{
+
+        #img-home1, #img-home2, #img-home3{
+        background-size:200%;
+        animation: movimiento3 15s linear infinite alternate;
+        }
+    }
+    /*Estilos generales*/
+
+    body .b-2 {
+        background-image: url("https://i.postimg.cc/sDqmXhWx/fondoresponsive.jpg");
+        animation: none;
+    }
+
+    .pagina .titulos {
+        background-size: 110%;
+        animation: movimiento3 5s linear infinite alternate;
+    }
+    .pagina2 .titulos {
+        background-size: 110%;
+        animation: movimiento3 5s linear infinite alternate;
+    }
+    
+    @keyframes movimiento3{
+        from{
+            background-position:left;
+            position: left;
+        }
+        to{
+            background-position: right;
+            position: right;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    /*Estilos generales*/
+
+    html{
+        font-size: 14px; 
+    }
+    .pagina {
+        padding-top: 35px ;   
+    }
+    .pagina2 {
+        padding-top:35px ;
+    }
+
+    /*Home*/
+    .b-inicio{
+        #img-home1, #img-home2, #img-home3{
+            background-size:260%;
+        }
+    }
+
+    /*Promociones*/
+    .container-promo{
+        min-height: 1800px;
+        .promo-p2{
+            bottom: 50px;
+        }
+    }
+    /*Productos*/
+    .contenedor__productos{
+        width: 100%;
+        max-width: 28.25rem;
+    }
+    .productos__imagen img{
+        max-width: 100%;
+        width: auto;
+    }
+
+    /*Footer*/
+
+    footer .contenedor-footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    /*Estilos generales*/
+    html{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 4.5rem;
+        
+    }
+
+    /*Home*/
+    .b-inicio{
+
+        #img-home1, #img-home2, #img-home3{
+            background-size:350%;
+        }
+    
+        section#titulo .caja__inicio h1 {
+            font-size: 4.5rem;
+            padding: 20px 30px;
+        }
+    }
+    /*Conocenos*/
+    .cont__conocenos .conocenos iframe{
+        width: 300px;
+        height: 18.75rem;
+        border-radius: 20px;
+    }
+    /*Contacto*/
+    .contacto .contacto__map iframe {
+        width: 300px;
+        height: 18.75rem;
+        border-radius: 20px;
+    }
+    /*Promociones*/
+    .container-promo{ 
+        min-height: 1300px;
+        .promo-p2{
+            bottom: 35px;
+        }
+        .promo-p1{
+            font-size: 7rem;
+        }
+    }    
+}
