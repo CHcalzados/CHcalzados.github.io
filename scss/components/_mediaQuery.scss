@@ -180,6 +180,31 @@
         height: 18.75rem;
         border-radius: 20px;
     }
+    /*Productos*/
+    .productos{
+        margin: 0;
+        padding: 0;
+
+        .contenedor__productos{
+            margin: 15px 0;
+            padding: 0;
+            .productos__imagen{     
+                img{
+                    max-width:none;
+                    }
+                }
+            
+            .productos__comprar {
+                button{
+                    font-size: 2rem;
+                }
+        
+            }
+        }
+
+        
+    } 
+
     /*Promociones*/
     .container-promo{ 
         min-height: 1300px;
