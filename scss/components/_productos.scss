@@ -27,7 +27,7 @@
             padding: 10px 0px;
 
             h5 {
-                font-size: 2.3rem;
+                font-size: 1.8rem;
                 color: white;
                 text-shadow: 2px 2px 1px black;
             }
@@ -38,6 +38,7 @@
             
         }
         .productos__imagen{ 
+            position: relative;
             overflow: hidden;
 
             img{
@@ -45,23 +46,23 @@
                 width: 100%;
                 transition: all 1s;
                 }
-            }
-        .precio{
+            
+            .precio{
             padding: 4px 10px;
             color: white;
             font-size: 25.6px;
             text-shadow: 2px 2px 1px black;
             position: absolute;
             right: 0;
-            top: 120px;
+            top: 20px;
             z-index: 1000;
-            background-color: rgba(241, 151, 151, 1);
+            background: linear-gradient(to bottom, rgb(233, 188, 188), rgb(245, 173, 173));
             border-radius: 7px 0 0 7px;
             border-bottom: 1px solid black;
-            
+            }
         }
         .productos__imagen img:hover{
-            transform: scale(1.2);
+            transform: scale(1.3);
             cursor:zoom-in;
         }
         .productos__comprar {

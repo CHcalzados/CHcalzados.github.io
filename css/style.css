@@ -334,7 +334,7 @@ ul {
 }
 .cont__conocenos h6 {
   color: #f19797;
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   padding-bottom: 0.25rem;
 }
 .cont__conocenos .conocenos {
@@ -394,7 +394,7 @@ ul {
   padding: 10px 0px;
 }
 .productos .contenedor__productos .productos__text h5 {
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   color: white;
   text-shadow: 2px 2px 1px black;
 }
@@ -403,6 +403,7 @@ ul {
   font-size: 1.3rem;
 }
 .productos .contenedor__productos .productos__imagen {
+  position: relative;
   overflow: hidden;
 }
 .productos .contenedor__productos .productos__imagen img {
@@ -410,21 +411,21 @@ ul {
   width: 100%;
   transition: all 1s;
 }
-.productos .contenedor__productos .precio {
+.productos .contenedor__productos .productos__imagen .precio {
   padding: 4px 10px;
   color: white;
   font-size: 25.6px;
   text-shadow: 2px 2px 1px black;
   position: absolute;
   right: 0;
-  top: 120px;
+  top: 20px;
   z-index: 1000;
-  background-color: #f19797;
+  background: linear-gradient(to bottom, #e9bcbc, #f5adad);
   border-radius: 7px 0 0 7px;
   border-bottom: 1px solid black;
 }
 .productos .contenedor__productos .productos__imagen img:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
   cursor: zoom-in;
 }
 .productos .contenedor__productos .productos__comprar {
@@ -542,7 +543,7 @@ ul {
 }
 .container-promo h6 {
   color: #f19797;
-  font-size: 3rem;
+  font-size: 2.7rem;
   text-shadow: 1px 2px 0px black;
 }
 .container-promo .promo1 {
@@ -594,7 +595,7 @@ ul {
   min-width: 200px;
 }
 .container-promo .promo-p1 {
-  font-size: 9rem;
+  font-size: 6rem;
   font-weight: bolder;
   color: white;
   text-shadow: 10px 10px 1px #f19797;
@@ -625,7 +626,7 @@ ul {
   }
 }
 .container-promo .promo-p2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: white;
   animation: oferta2 2s linear infinite;
   transition: 0.01s;
@@ -653,7 +654,7 @@ ul {
 }
 .condiciones h2 {
   color: #f19797;
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   text-shadow: 1px 2px 0px black;
   padding: 20px;
 }
@@ -729,7 +730,7 @@ hr {
 .clientes p {
   color: #f19797;
   text-align: center;
-  font-size: 2.875rem;
+  font-size: 2.7rem;
 }
 .clientes .clientes__contenedor {
   display: flex;
