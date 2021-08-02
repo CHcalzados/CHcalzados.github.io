@@ -110,6 +110,31 @@ ul {
     }
 }
 
+.whatsapp{
+    #btn-wsp .icon-whatsapp{
+        position: fixed;
+        width: 3.4375rem;
+        height: 3.4375rem;
+        line-height: 3.4375rem;
+        bottom: 30px;
+        right: 10px;
+        background: #0ec748;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        z-index: 2000;
+    }
+    #btn-wsp .icon-whatsapp:hover{
+        text-decoration: none;
+        color: #0df053;
+        background-color: white;
+        transform: scale(1.2);
+        transition: all 0.5s;
+    }
+}
+
 
 /*scrollbar*/
 ::-webkit-scrollbar{

@@ -61,7 +61,10 @@
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 993px) {
+    *{
+        font-size: 14px;
+    }
 
     /*Home*/
     .b-inicio{
@@ -86,6 +89,14 @@
         background-size: 110%;
         animation: movimiento3 5s linear infinite alternate;
     }
+
+     /*Promociones*/
+     .container-promo{
+        min-height: 1800px;
+        .promo-p2{
+            bottom: 70px;
+        }
+    }
     
     @keyframes movimiento3{
         from{
@@ -103,9 +114,6 @@
     
     /*Estilos generales*/
 
-    html{
-        font-size: 14px; 
-    }
     .pagina {
         padding-top: 35px ;   
     }
@@ -120,13 +128,6 @@
         }
     }
 
-    /*Promociones*/
-    .container-promo{
-        min-height: 1800px;
-        .promo-p2{
-            bottom: 50px;
-        }
-    }
     /*Productos*/
     .contenedor__productos{
         width: 100%;
