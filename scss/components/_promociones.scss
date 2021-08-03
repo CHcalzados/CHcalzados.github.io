@@ -55,6 +55,7 @@
         width: 100%;
         height: auto;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         flex: 4;
@@ -71,18 +72,31 @@
             min-width: 200px;
             max-width: 570px;
         }
+        .promo-p1 {
+            font-size: 6rem;
+            font-weight: bolder;
+            color:white;
+            text-shadow: 10px 10px 1px $col-primario;
+            animation: oferta 4s linear infinite;
+            transition: 0.01s;
+            z-index: 100;
+            // position: absolute;
+            
+    
+    
+        }
+        .promo-p2 {
+            font-size: 2rem;
+            color:white;
+            animation: oferta2 2s linear infinite;
+            transition: 0.01s;
+            z-index: 100;
+            // position: absolute;
+            // bottom: 3.25rem;
+            text-shadow: 2px 2px 1px $col-primario;
+        }
     }
-    .promo-p1 {
-        font-size: 6rem;
-        font-weight: bolder;
-        color:white;
-        text-shadow: 10px 10px 1px $col-primario;
-        animation: oferta 4s linear infinite;
-        transition: 0.01s;
-        z-index: 100;
-        position: absolute;
-
-    }
+    
     
     @keyframes oferta{
         0%{
@@ -109,16 +123,7 @@
         }
     
     }
-    .promo-p2 {
-        font-size: 2rem;
-        color:white;
-        animation: oferta2 2s linear infinite;
-        transition: 0.01s;
-        z-index: 100;
-        position: absolute;
-        bottom: 3.25rem;
-        text-shadow: 2px 2px 1px $col-primario;
-    }
+    
     @keyframes oferta2{
         0% {
             transform: scale3d(1, 1, 1);

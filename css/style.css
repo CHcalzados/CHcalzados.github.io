@@ -92,12 +92,9 @@ ul {
   padding: 0.875rem;
   margin: 3.125rem auto;
   background-image: url("https://i.postimg.cc/Hsd7NngV/fondo2.jpg");
-  background-repeat: repeat;
   font-weight: bolder;
-  background-attachment: fixed;
   background-position: center;
-  background-size: 40%;
-  animation: movimiento 40s linear infinite alternate;
+  background-size: 120%;
 }
 
 @keyframes movimiento {
@@ -194,12 +191,8 @@ ul {
 }
 .b-inicio .carro {
   height: 72vh;
-  min-height: 500px;
-  background: no-repeat scroll center scroll;
-  background-size: cover;
+  min-height: 600px;
   width: 100%;
-  background-attachment: fixed;
-  background-position: center;
 }
 .b-inicio #img-home1 {
   background-image: url("https://i.postimg.cc/Hsd7NngV/fondo2.jpg");
@@ -220,7 +213,6 @@ ul {
 .b-inicio #img-home3 {
   background-image: url("https://i.postimg.cc/FRrZmptJ/3x2.jpg");
   background-repeat: repeat;
-  background-attachment: fixed;
   background-position: center;
   background-size: 120%;
   animation: movimiento 15s linear infinite alternate;
@@ -244,7 +236,7 @@ ul {
 }
 .b-inicio section#titulo .caja__inicio h1 {
   color: white;
-  font-size: 9.3rem;
+  font-size: 7.8rem;
   text-align: center;
   text-shadow: 3px 3px 1px black;
 }
@@ -369,7 +361,7 @@ ul {
   flex-wrap: wrap;
 }
 .cont__conocenos .conocenos img {
-  max-width: 35rem;
+  max-width: 33rem;
   padding: 10px;
   border-radius: 20px;
   box-sizing: border-box;
@@ -419,7 +411,7 @@ ul {
   padding: 10px 0px;
 }
 .productos .contenedor__productos .productos__text h5 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: white;
   text-shadow: 2px 2px 1px black;
 }
@@ -432,7 +424,7 @@ ul {
   overflow: hidden;
 }
 .productos .contenedor__productos .productos__imagen img {
-  max-width: 360px;
+  max-width: 22.5rem;
   width: 100%;
   transition: all 1s;
 }
@@ -604,6 +596,7 @@ ul {
   width: 100%;
   height: auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex: 4;
@@ -620,7 +613,7 @@ ul {
   min-width: 200px;
   max-width: 570px;
 }
-.container-promo .promo-p1 {
+.container-promo .container-imgp .promo-p1 {
   font-size: 6rem;
   font-weight: bolder;
   color: white;
@@ -628,7 +621,14 @@ ul {
   animation: oferta 4s linear infinite;
   transition: 0.01s;
   z-index: 100;
-  position: absolute;
+}
+.container-promo .container-imgp .promo-p2 {
+  font-size: 2rem;
+  color: white;
+  animation: oferta2 2s linear infinite;
+  transition: 0.01s;
+  z-index: 100;
+  text-shadow: 2px 2px 1px #f19797;
 }
 @keyframes oferta {
   25% {
@@ -650,16 +650,6 @@ ul {
     text-shadow: 10px 10px 1px #f19797;
     transform: translatey(0px);
   }
-}
-.container-promo .promo-p2 {
-  font-size: 2rem;
-  color: white;
-  animation: oferta2 2s linear infinite;
-  transition: 0.01s;
-  z-index: 100;
-  position: absolute;
-  bottom: 3.25rem;
-  text-shadow: 2px 2px 1px #f19797;
 }
 @keyframes oferta2 {
   0% {
@@ -890,8 +880,16 @@ footer .footer__li {
 }
 
 /*media query*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   /*Generales*/
+  * {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
   .pagina2 {
     max-width: 700px;
   }
@@ -901,11 +899,6 @@ footer .footer__li {
     font-size: 7.3rem;
   }
 
-  /*Conocenos*/
-  .cont__conocenos {
-    max-width: 43.75rem;
-  }
-
   /*Productos*/
   .productos .contenedor__productos {
     margin: 25px 20px;
@@ -913,28 +906,7 @@ footer .footer__li {
 
   /*Promociones*/
   .container-promo {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: "promo1" "promo2" "promo-cuotas" "promo-banco";
-    max-width: 700px;
-    min-height: 1900px;
-    padding: 0 auto;
-    justify-content: center;
-    align-self: center;
-    justify-content: center;
-    align-content: center;
-  }
-
-  /*Contacto*/
-  .contacto {
-    width: auto;
-    max-width: 700px;
-  }
-
-  .clientes {
-    width: auto;
-    max-width: 700px;
+    max-width: 1000px;
   }
 
   /*Footer*/
@@ -951,6 +923,7 @@ footer .footer__li {
   .b-inicio #img-home1, .b-inicio #img-home2, .b-inicio #img-home3 {
     background-size: 200%;
     animation: movimiento3 15s linear infinite alternate;
+    background-attachment: inherit;
   }
 
   /*Estilos generales*/
@@ -959,22 +932,24 @@ footer .footer__li {
     animation: none;
   }
 
-  .pagina .titulos {
-    background-size: 110%;
-    animation: movimiento3 5s linear infinite alternate;
-  }
-
-  .pagina2 .titulos {
-    background-size: 110%;
-    animation: movimiento3 5s linear infinite alternate;
+  /*Conocenos*/
+  .cont__conocenos {
+    max-width: 43.75rem;
   }
 
   /*Promociones*/
   .container-promo {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "promo1" "promo2" "promo-cuotas" "promo-banco";
+    max-width: 700px;
+    padding: 0 auto;
+    justify-content: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
     min-height: 1800px;
-  }
-  .container-promo .promo-p2 {
-    bottom: 70px;
   }
 
   @keyframes movimiento3 {
@@ -988,8 +963,12 @@ footer .footer__li {
     }
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   /*Estilos generales*/
+  * {
+    font-size: 12px;
+  }
+
   .pagina {
     padding-top: 35px;
   }
@@ -1003,6 +982,11 @@ footer .footer__li {
     background-size: 260%;
   }
 
+  /*conocenos*/
+  .cont__conocenos .conocenos p {
+    font-size: 1.3rem;
+  }
+
   /*Productos*/
   .contenedor__productos {
     width: 100%;
@@ -1014,6 +998,12 @@ footer .footer__li {
     width: auto;
   }
 
+  /*Promociones*/
+  .container-promo {
+    min-height: 1400px;
+    max-width: 450px;
+  }
+
   /*Footer*/
   footer .contenedor-footer {
     display: flex;
@@ -1022,10 +1012,6 @@ footer .footer__li {
 }
 @media screen and (max-width: 500px) {
   /*Estilos generales*/
-  html {
-    font-size: 12px;
-  }
-
   h1 {
     font-size: 4.5rem;
   }
@@ -1067,17 +1053,6 @@ footer .footer__li {
   }
   .productos .contenedor__productos .productos__comprar button {
     font-size: 2rem;
-  }
-
-  /*Promociones*/
-  .container-promo {
-    min-height: 1300px;
-  }
-  .container-promo .promo-p2 {
-    bottom: 35px;
-  }
-  .container-promo .promo-p1 {
-    font-size: 7rem;
   }
 }
 

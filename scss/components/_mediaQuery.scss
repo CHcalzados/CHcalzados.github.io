@@ -1,9 +1,14 @@
 /*media query*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 
     /*Generales*/
-    
+    *{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 6rem;
+    }
     .pagina2{
         max-width: 700px;
     }
@@ -12,11 +17,6 @@
 
     .b-inicio section#titulo .caja__inicio h1{
         font-size: 7.3rem;
-    }
-     /*Conocenos*/
-
-     .cont__conocenos {
-        max-width: 43.75rem;
     }
 
       /*Productos*/
@@ -27,31 +27,7 @@
     /*Promociones*/
 
     .container-promo{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "promo1"
-        "promo2"
-        "promo-cuotas"
-        "promo-banco";
-        max-width: 700px;
-        min-height: 1900px;
-        padding:0 auto;
-        justify-content: center;
-        align-self:center;
-        justify-content: center; 
-        align-content: center; 
-    }
-
-    /*Contacto*/
-    .contacto{
-        width: auto;
-        max-width: 700px;
-    }
-    .clientes {
-        width: auto;
-        max-width: 700px;
+        max-width: 1000px;
     }
 
 
@@ -72,6 +48,7 @@
         #img-home1, #img-home2, #img-home3{
         background-size:200%;
         animation: movimiento3 15s linear infinite alternate;
+        background-attachment:inherit;
         }
     }
     /*Estilos generales*/
@@ -81,21 +58,30 @@
         animation: none;
     }
 
-    .pagina .titulos {
-        background-size: 110%;
-        animation: movimiento3 5s linear infinite alternate;
-    }
-    .pagina2 .titulos {
-        background-size: 110%;
-        animation: movimiento3 5s linear infinite alternate;
+     /*Conocenos*/
+
+     .cont__conocenos {
+        max-width: 43.75rem;
     }
 
-     /*Promociones*/
-     .container-promo{
+      /*Promociones*/
+
+    .container-promo{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "promo1"
+        "promo2"
+        "promo-cuotas"
+        "promo-banco";
+        max-width: 700px;
+        padding:0 auto;
+        justify-content: center;
+        align-self:center;
+        justify-content: center; 
+        align-content: center; 
         min-height: 1800px;
-        .promo-p2{
-            bottom: 70px;
-        }
     }
     
     @keyframes movimiento3{
@@ -110,10 +96,12 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     
     /*Estilos generales*/
-
+    *{
+        font-size: 12px;
+    }
     .pagina {
         padding-top: 35px ;   
     }
@@ -127,6 +115,14 @@
             background-size:260%;
         }
     }
+    /*conocenos*/
+    .cont__conocenos {
+        .conocenos { 
+            p{
+                font-size: 1.3rem;
+            }
+        }
+    }
 
     /*Productos*/
     .contenedor__productos{
@@ -136,6 +132,12 @@
     .productos__imagen img{
         max-width: 100%;
         width: auto;
+    }
+     /*Promociones*/
+
+     .container-promo{
+        min-height: 1400px;
+        max-width: 450px;
     }
 
     /*Footer*/
@@ -149,9 +151,7 @@
 
 @media screen and (max-width: 500px){
     /*Estilos generales*/
-    html{
-        font-size: 12px;
-    }
+   
     h1{
         font-size: 4.5rem;
         
@@ -206,14 +206,4 @@
         
     } 
 
-    /*Promociones*/
-    .container-promo{ 
-        min-height: 1300px;
-        .promo-p2{
-            bottom: 35px;
-        }
-        .promo-p1{
-            font-size: 7rem;
-        }
-    }    
 }

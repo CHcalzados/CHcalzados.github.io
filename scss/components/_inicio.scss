@@ -10,14 +10,8 @@
     }
     .carro{
         height: 72vh;
-        min-height: 500px;
-        background: no-repeat scroll center scroll;
-        background-size: cover ;
+        min-height: 600px;
         width: 100%;
-        background-attachment: fixed;
-        background-position: center;
-
-
     }
     #img-home1{
         background-image: url("https://i.postimg.cc/Hsd7NngV/fondo2.jpg");
@@ -38,7 +32,7 @@
     #img-home3{
         background-image: url("https://i.postimg.cc/FRrZmptJ/3x2.jpg");
         background-repeat:repeat;
-        background-attachment: fixed;
+        // background-attachment: fixed;
         background-position: center;
         background-size: 120%;
         animation: movimiento 15s linear infinite alternate;
@@ -63,7 +57,7 @@
 
             h1{
                 color: white;
-                font-size: 9.3rem;
+                font-size: 7.8rem;
                 text-align: center;
                 text-shadow: 3px 3px 1px black;
             }
