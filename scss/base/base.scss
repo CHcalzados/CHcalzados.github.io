@@ -115,9 +115,11 @@ ul {
         line-height: 3.4375rem;
         bottom: 30px;
         right: 10px;
-        background: #0ec748;
+        background: linear-gradient(to bottom, #0ec748,#68da8c);
+        // background: #0ec748;
         color: white;
         border-radius: 50px;
+        border:1px solid white;
         text-align: center;
         font-size: 30px;
         box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
@@ -125,10 +127,11 @@ ul {
     }
     #btn-wsp .icon-whatsapp:hover{
         text-decoration: none;
-        color: #0df053;
-        background-color: white;
+        color: #0ec748;
+        background: white;
         transform: scale(1.2);
-        transition: all 0.5s;
+        transition: all 0.7s;
+        border:1px solid #0ec748;
     }
 }
 

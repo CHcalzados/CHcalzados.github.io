@@ -122,9 +122,10 @@ ul {
   line-height: 3.4375rem;
   bottom: 30px;
   right: 10px;
-  background: #0ec748;
+  background: linear-gradient(to bottom, #0ec748, #68da8c);
   color: white;
   border-radius: 50px;
+  border: 1px solid white;
   text-align: center;
   font-size: 30px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
@@ -132,10 +133,11 @@ ul {
 }
 .whatsapp #btn-wsp .icon-whatsapp:hover {
   text-decoration: none;
-  color: #0df053;
-  background-color: white;
+  color: #0ec748;
+  background: white;
   transform: scale(1.2);
-  transition: all 0.5s;
+  transition: all 0.7s;
+  border: 1px solid #0ec748;
 }
 
 /*scrollbar*/
@@ -254,7 +256,7 @@ ul {
 .b-inicio .btn-inicio {
   color: #fff;
   text-shadow: 2px 2px 2px black;
-  background-color: rgba(241, 151, 151, 0.8);
+  background: linear-gradient(to bottom, #e9bcbc, #f5adad);
   border: 1.5px solid white;
   border-radius: 5px;
   padding: 1.15rem 2.25rem;
@@ -271,7 +273,7 @@ ul {
 .b-inicio .boton-newsletter {
   color: #fff;
   text-shadow: 2px 2px 1px black;
-  background-color: rgba(241, 151, 151, 0.8);
+  background: linear-gradient(to bottom, #e9bcbc, #f5adad);
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 3px black;
