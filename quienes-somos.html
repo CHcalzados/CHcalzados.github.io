@@ -8,6 +8,8 @@
     <title>CH CALZADOS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Pathway+Gothic+One&display=swap"
@@ -68,7 +70,7 @@
                 <h1>Conocenos</h1>
             </div>
 
-            <div class="cont__conocenos">
+            <div class="cont__conocenos wow animate__animated animate__fadeIn">
                 <h6>Diseñando</h6>
                 <div class="conocenos">
                     <div>
@@ -83,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cont__conocenos">
+            <div class="cont__conocenos wow animate__animated animate__fadeIn animate__delay-1s">
                 <h6>Producción</h6>
                 <div class="conocenos">
                     <div>
@@ -101,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cont__conocenos">
+            <div class="cont__conocenos wow animate__animated animate__fadeIn ">
                 <h6>Backstage</h6>
                 <div class="conocenos">
                     <div>
@@ -118,8 +120,9 @@
             </div>
             <!-- button whatsapp -->
             <div class="whatsapp">
-                <a href="https://wa.me/5491164384208?text=Hola%20CHcalzados!%20Solicito%20información%20de%20los%20productos..." id="btn-wsp" target="_blank">
-                <i class="icon-whatsapp fab fa-whatsapp"></i>
+                <a href="https://wa.me/5491164384208?text=Hola%20CHcalzados!%20Solicito%20información%20de%20los%20productos..."
+                    id="btn-wsp" target="_blank">
+                    <i class="icon-whatsapp fab fa-whatsapp"></i>
                 </a>
             </div>
         </div>
@@ -143,7 +146,8 @@
                 </ul>
                 <p class="ubicacion">Donde estamos</p>
                 <ul class="ubi-ico">
-                    <li class="footer__li"><i class="fas fa-map-marker-alt"></i> Dr. Juan Felipe Aranguren 2967- Galeria Venecia- Local 9 (Flores-Ciudad de buenos aires-Argentina)</li>
+                    <li class="footer__li"><i class="fas fa-map-marker-alt"></i> Dr. Juan Felipe Aranguren 2967- Galeria
+                        Venecia- Local 9 (Flores-Ciudad de buenos aires-Argentina)</li>
 
                 </ul>
             </div>
@@ -155,6 +159,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
             integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
             crossorigin="anonymous"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 </body>
 
 </html>

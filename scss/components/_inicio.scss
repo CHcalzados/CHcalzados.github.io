@@ -32,7 +32,7 @@
     #img-home3{
         background-image: url("https://i.postimg.cc/FRrZmptJ/3x2.jpg");
         background-repeat:repeat;
-        // background-attachment: fixed;
+        background-attachment: fixed;
         background-position: center;
         background-size: 120%;
         animation: movimiento 15s linear infinite alternate;
@@ -92,7 +92,7 @@
         text-shadow: 2px 2px 2px black;
         background-color: $col-primario;
         border:3px solid white;
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
     
     .boton-newsletter{
