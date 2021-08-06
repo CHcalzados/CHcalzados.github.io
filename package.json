@@ -1,12 +1,12 @@
 {
-  "name": "ch-29-7",
+  "name": "ch-calzados",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web CH calzados | Descubrí la colección Primavera-verano 2021 | Conocenos a nosotros y a nuestros productos |Calzados bordados distintos a todos, únicos como vos!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["CALZADOS, ZAPATILLAS, ZAPATOS, SANDALIAS, 2021, PRIMAVERA, VERANO, BORDADO, DISEÑO, COMPRAR, MAYORISTAS, CONVERSE, ARGENTINA, DAMA, MUJER, MODA"],
+  "author": "Claudio hernan chavez",
   "license": "ISC"
 }
