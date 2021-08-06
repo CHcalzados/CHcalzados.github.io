@@ -936,6 +936,9 @@ footer .footer__li {
   .b-inicio section#titulo .caja__inicio h1 {
     font-size: 7.3rem;
   }
+  .b-inicio section#titulo .caja__inicio h2 {
+    font-size: 7.3rem;
+  }
 
   /*Productos*/
   .productos .contenedor__productos {
@@ -1059,6 +1062,10 @@ footer .footer__li {
     background-size: 350%;
   }
   .b-inicio section#titulo .caja__inicio h1 {
+    font-size: 4.5rem;
+    padding: 20px 30px;
+  }
+  .b-inicio section#titulo .caja__inicio h2 {
     font-size: 4.5rem;
     padding: 20px 30px;
   }

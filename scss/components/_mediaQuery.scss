@@ -15,8 +15,12 @@
 
     /**Home*/
 
-    .b-inicio section#titulo .caja__inicio h1{
-        font-size: 7.3rem;
+    .b-inicio section#titulo .caja__inicio {
+        h1{
+            font-size: 7.3rem;}
+        h2{
+            font-size: 7.3rem;
+        }
     }
 
       /*Productos*/
@@ -164,9 +168,15 @@
             background-size:350%;
         }
     
-        section#titulo .caja__inicio h1 {
-            font-size: 4.5rem;
-            padding: 20px 30px;
+        section#titulo .caja__inicio {
+            h1 {
+                font-size: 4.5rem;
+                padding: 20px 30px;}
+            h2 {
+                font-size: 4.5rem;
+                padding: 20px 30px;
+
+            }
         }
     }
     /*Conocenos*/
