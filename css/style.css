@@ -263,6 +263,12 @@ ul {
   text-align: center;
   text-shadow: 3px 3px 1px black;
 }
+.b-inicio section#titulo .caja__inicio h2 {
+  color: white;
+  font-size: 7.8rem;
+  text-align: center;
+  text-shadow: 3px 3px 1px black;
+}
 @keyframes pulse {
   0% {
     transform: scale3d(1, 1, 1);
