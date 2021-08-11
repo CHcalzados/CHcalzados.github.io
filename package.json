@@ -6,7 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["CALZADOS, ZAPATILLAS, ZAPATOS, SANDALIAS, 2021, PRIMAVERA, VERANO, BORDADO, DISEÑO, COMPRAR, MAYORISTAS, CONVERSE, ARGENTINA, DAMA, MUJER, MODA"],
+  "keywords": [
+    "CALZADOS, ZAPATILLAS, ZAPATOS, SANDALIAS, 2021, PRIMAVERA, VERANO, BORDADO, DISEÑO, COMPRAR, MAYORISTAS, CONVERSE, ARGENTINA, DAMA, MUJER, MODA"
+  ],
   "author": "Claudio hernan chavez",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHcalzados/CHcalzados.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CHcalzados/CHcalzados.github.io/issues"
+  },
+  "homepage": "https://github.com/CHcalzados/CHcalzados.github.io#readme"
 }
