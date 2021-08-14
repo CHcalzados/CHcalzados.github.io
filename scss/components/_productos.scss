@@ -1,5 +1,12 @@
 /*Productos*/
-
+.nav-productos{
+    
+    h6{
+        color:$col-primario;
+        font-size: 1.7rem;
+        text-shadow: 1px 1px 1px black;
+    }
+}
 .productos {
     display: flex;
     flex-wrap: wrap;

@@ -414,6 +414,12 @@ ul {
 }
 
 /*Productos*/
+.nav-productos h6 {
+  color: #f19797;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 1px black;
+}
+
 .productos {
   display: flex;
   flex-wrap: wrap;
