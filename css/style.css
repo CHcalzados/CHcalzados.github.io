@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-  background-color: rgba(241, 151, 151, 0.7);
+  background-color: #f19797;
   text-shadow: 2px 2px 2px black;
   color: white;
   font-size: 2.4rem;
@@ -201,7 +201,7 @@ ul {
   z-index: 1001;
 }
 .nav-1 .navbar {
-  background: linear-gradient(to bottom, rgba(241, 151, 151, 0.9), rgba(255, 254, 253, 0.9));
+  background: linear-gradient(to bottom, #f19797, rgba(255, 254, 253, 0.9));
   box-shadow: 0px 0px 15px 0px gray;
 }
 .nav-1 .navbar .navbar-brand {
@@ -512,7 +512,7 @@ ul {
 .productos .contenedor__productos .productos__text {
   text-align: center;
   border-radius: 7px 7px 0 0;
-  background: linear-gradient(to bottom, rgba(241, 151, 151, 0.9), rgba(255, 254, 253, 0.9));
+  background: linear-gradient(to bottom, #f19797, rgba(255, 254, 253, 0.9));
   color: white;
   padding: 10px 0px;
 }
@@ -553,7 +553,7 @@ ul {
   cursor: zoom-in;
 }
 .productos .contenedor__productos .productos__comprar {
-  background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7), rgba(241, 151, 151, 0.8));
+  background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7), #f19797);
   border-radius: 0 0 7px 7px;
   display: block;
 }
@@ -585,7 +585,7 @@ ul {
   box-sizing: border-box;
 }
 .label__zapatillas p {
-  background: linear-gradient(to bottom, rgba(241, 151, 151, 0.9), rgba(255, 254, 253, 0.9));
+  background: linear-gradient(to bottom, #f19797, rgba(255, 254, 253, 0.9));
   color: white;
   text-shadow: 2px 2px 1px black;
   text-align: center;
@@ -637,7 +637,7 @@ ul {
   font-weight: 200;
 }
 .label__zapatillas .pagar {
-  background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7), rgba(241, 151, 151, 0.8));
+  background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7), #f19797);
   display: flex;
   justify-content: center;
   padding: 0.625rem 3.75rem;
@@ -929,7 +929,7 @@ hr {
 /*footer*/
 footer {
   width: 100%;
-  background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7), rgba(241, 151, 151, 0.8));
+  background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7), #f19797);
   box-shadow: 0px 0px 15px 0px gray;
   z-index: 900;
   display: flex;

@@ -28,7 +28,7 @@
         .productos__text {
             text-align: center;
             border-radius: 7px 7px 0 0;
-            background: linear-gradient(to bottom, rgba(241, 151, 151, 0.9), rgba(255, 254, 253, 0.9));
+            background: linear-gradient(to bottom, $col-primario, rgba(255, 254, 253, 0.9));
             color: white;
             padding: 10px 0px;
 
@@ -73,7 +73,7 @@
             cursor:zoom-in;
         }
         .productos__comprar {
-            background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7),rgba(241, 151, 151, 0.8));
+            background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7),$col-primario);
             border-radius: 0 0 7px 7px;
             display: block;
 
@@ -109,7 +109,7 @@
     box-sizing: border-box;
 
     p{
-        background: linear-gradient(to bottom, rgba(241, 151, 151, 0.9), rgba(255, 254, 253, 0.9));
+        background: linear-gradient(to bottom, $col-primario, rgba(255, 254, 253, 0.9));
         color: white;
         text-shadow: 2px 2px 1px black;
         text-align: center;
@@ -147,7 +147,7 @@
                     font-weight: 200;
                     padding: 10px 15px;
                     margin: 8px 2px;
-                    background-color: rgba(241, 151, 151, 1);
+                    background-color: $col-primario;
                     border-radius: 30px;
                     text-align: center;
                 }
@@ -169,7 +169,7 @@
 
     }
     .pagar{
-        background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7),rgba(241, 151, 151, 0.8));
+        background: linear-gradient(to bottom, rgba(255, 254, 253, 0.7),$col-primario);
         display: flex;
         justify-content: center;
         padding: .625rem 3.75rem;
