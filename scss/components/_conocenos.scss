@@ -35,7 +35,7 @@
         }
         p{
             color:black;
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             width: 100%;
             max-width: 37.5rem;
             text-shadow: none;
@@ -50,5 +50,36 @@
             padding: auto;
             
         }
+    }
+}
+.cont__quienes-somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 2px 0px black;
+    box-shadow: 0px 0px 15px 0px gray;
+    border-radius: 7px;
+    margin: 40px auto ;
+    width: 100%;
+    max-width: 75rem;
+    padding: 1.25rem 0;
+    background-color: rgba(255, 254, 253, 0.5);
+    backdrop-filter: blur(2px); 
+    
+    h6{
+        color:$col-primario;
+        font-size: 2.7rem;
+        padding-bottom: .25rem;
+    }
+    p{
+        color:black;
+        font-size: 1.5rem;
+        width: 100%;
+        text-shadow: none;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+        padding: 1.25rem 2rem;
     }
 }

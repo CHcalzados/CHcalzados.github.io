@@ -16,7 +16,7 @@
     h6{
         color:$col-primario;
         font-size: 2.7rem;
-        text-shadow: 1px 2px 0px black;
+        text-shadow: 1px 1px 1px black;
     }
 
     .promo1 { 
@@ -76,7 +76,7 @@
             font-size: 6rem;
             font-weight: bolder;
             color:white;
-            text-shadow: 10px 10px 1px $col-primario;
+            text-shadow: 4px 4px 1px $col-primario;
             animation: oferta 4s linear infinite;
             transition: 0.01s;
             z-index: 100;
@@ -93,7 +93,7 @@
             z-index: 100;
             // position: absolute;
             // bottom: 3.25rem;
-            text-shadow: 2px 2px 1px $col-primario;
+            text-shadow: 1px 1px 1px $col-primario;
         }
     }
     
@@ -104,21 +104,21 @@
         }
         25%{
             transform: scale(1.01);
-            text-shadow: 10px 10px 1px black;
+            text-shadow: 4px 4px 1px black;
             transform: translatey(-18px);
         }
         50%{
             transform: scale(0.99);
-            text-shadow: 10px 10px 1px $col-primario;
+            text-shadow: 4px 4px 1px $col-primario;
             transform: translate(14px);
         }
         75%{
             transform: scale(1.01);
-            text-shadow: 10px 10px 1px black;
+            text-shadow: 4px 4px 1px black;
             transform: translate(-15px);
         }
         100%{
-            text-shadow: 10px 10px 1px $col-primario;
+            text-shadow: 4px 4px 1px $col-primario;
             transform: translatey(0px);
         }
     
@@ -137,21 +137,37 @@
     }
     
 }
-.condiciones{
-    max-width: 75rem;
-    text-align: center;
-    margin: auto;
+.cont__condiciones{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+        h5{
+            color:$col-primario;
+            font-size: 2.7rem;
+            text-shadow: 1px 2px 0px black;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        .condiciones{
+        
+        box-shadow: 0px 0px 15px 0px gray;
+        border-radius: 7px;
+        padding: 1.5rem 1.5rem 0 1.5rem;
+        background-color: rgba(255, 254, 253, 0.5);
+        backdrop-filter: blur(2px); 
+        max-width: 37.5rem;
 
-    h2{
-        color:$col-primario;
-        font-size: 2.7rem;
-        text-shadow: 1px 2px 0px black;
-        padding: 20px;
-    }
-    p{
-        font-size: 1.3rem;
-        padding: 20px;
-        font-family: 'Crimson Text', serif;
-        letter-spacing: .0625rem;
+        
+            li{
+            
+                margin-left: 20px;
+                font-size: 1.5rem;
+                max-width: 500px;
+            
+            }
     }
 }

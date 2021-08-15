@@ -438,7 +438,7 @@ ul {
 }
 .cont__conocenos .conocenos p {
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   width: 100%;
   max-width: 37.5rem;
   text-shadow: none;
@@ -451,6 +451,37 @@ ul {
   width: 30rem;
   box-sizing: content-box;
   padding: auto;
+}
+
+.cont__quienes-somos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 1px 2px 0px black;
+  box-shadow: 0px 0px 15px 0px gray;
+  border-radius: 7px;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 75rem;
+  padding: 1.25rem 0;
+  background-color: rgba(255, 254, 253, 0.5);
+  backdrop-filter: blur(2px);
+}
+.cont__quienes-somos h6 {
+  color: #f19797;
+  font-size: 2.7rem;
+  padding-bottom: 0.25rem;
+}
+.cont__quienes-somos p {
+  color: black;
+  font-size: 1.5rem;
+  width: 100%;
+  text-shadow: none;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  padding: 1.25rem 2rem;
 }
 
 /*Productos*/
@@ -645,7 +676,7 @@ ul {
 .container-promo h6 {
   color: #f19797;
   font-size: 2.7rem;
-  text-shadow: 1px 2px 0px black;
+  text-shadow: 1px 1px 1px black;
 }
 .container-promo .promo1 {
   grid-area: promo1;
@@ -701,7 +732,7 @@ ul {
   font-size: 6rem;
   font-weight: bolder;
   color: white;
-  text-shadow: 10px 10px 1px #f19797;
+  text-shadow: 4px 4px 1px #f19797;
   animation: oferta 4s linear infinite;
   transition: 0.01s;
   z-index: 100;
@@ -712,26 +743,26 @@ ul {
   animation: oferta2 2s linear infinite;
   transition: 0.01s;
   z-index: 100;
-  text-shadow: 2px 2px 1px #f19797;
+  text-shadow: 1px 1px 1px #f19797;
 }
 @keyframes oferta {
   25% {
     transform: scale(1.01);
-    text-shadow: 10px 10px 1px black;
+    text-shadow: 4px 4px 1px black;
     transform: translatey(-18px);
   }
   50% {
     transform: scale(0.99);
-    text-shadow: 10px 10px 1px #f19797;
+    text-shadow: 4px 4px 1px #f19797;
     transform: translate(14px);
   }
   75% {
     transform: scale(1.01);
-    text-shadow: 10px 10px 1px black;
+    text-shadow: 4px 4px 1px black;
     transform: translate(-15px);
   }
   100% {
-    text-shadow: 10px 10px 1px #f19797;
+    text-shadow: 4px 4px 1px #f19797;
     transform: translatey(0px);
   }
 }
@@ -747,22 +778,32 @@ ul {
   }
 }
 
-.condiciones {
-  max-width: 75rem;
-  text-align: center;
-  margin: auto;
+.cont__condiciones {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.condiciones h2 {
+.cont__condiciones h5 {
   color: #f19797;
   font-size: 2.7rem;
   text-shadow: 1px 2px 0px black;
-  padding: 20px;
+  text-align: center;
+  padding: 10px;
 }
-.condiciones p {
-  font-size: 1.3rem;
-  padding: 20px;
-  font-family: "Crimson Text", serif;
-  letter-spacing: 0.0625rem;
+.cont__condiciones .condiciones {
+  box-shadow: 0px 0px 15px 0px gray;
+  border-radius: 7px;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  background-color: rgba(255, 254, 253, 0.5);
+  backdrop-filter: blur(2px);
+  max-width: 37.5rem;
+}
+.cont__condiciones .condiciones li {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  max-width: 500px;
 }
 
 /* 5ta seccion contacto */
@@ -903,7 +944,6 @@ footer .contenedor-footer {
   justify-content: center;
   color: black;
   padding: 10px;
-  backdrop-filter: blur(2px);
   width: 100vw;
 }
 footer .contenedor-footer .redes {
@@ -1071,7 +1111,11 @@ footer .footer__li {
 
   /*conocenos*/
   .cont__conocenos .conocenos p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+  }
+
+  .cont__quienes-somos p {
+    font-size: 1.6rem;
   }
 
   /*Productos*/
