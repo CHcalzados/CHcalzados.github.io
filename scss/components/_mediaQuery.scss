@@ -58,7 +58,7 @@
     /*Estilos generales*/
 
     body .b-2 {
-        background-image: url("https://i.postimg.cc/sDqmXhWx/fondoresponsive.jpg");
+        background-image: url("../../images/fondoresponsive.jpg");
         animation: none;
     }
 
@@ -155,8 +155,23 @@
         flex-direction: column;
     }
 }
-
-
+@media screen and (max-width: 700px) {
+    /*Home*/
+    .b-inicio{
+        #img-home1{
+            background-image: url("../../images/fondoresponsive1.jpg");
+            background-size:140%;
+        } 
+        #img-home2{
+            background-image: url("../../images/fondoresponsive2.jpg");
+            background-size:140%;
+        } 
+        #img-home3{
+            background-image: url("../../images/fondoresponsive3.jpg");
+            background-size:140%;
+        }
+    }
+}
 @media screen and (max-width: 500px){
     /*Estilos generales*/
    
@@ -167,11 +182,6 @@
 
     /*Home*/
     .b-inicio{
-
-        #img-home1, #img-home2, #img-home3{
-            background-size:350%;
-        }
-    
         section#titulo .caja__inicio {
             h1 {
                 font-size: 4.5rem;
