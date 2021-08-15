@@ -42,9 +42,8 @@
 
 <body>
     <div class="b-2">
-
-
         <header>
+            <!-- Nav -->
             <div class="container-fluid p-0 nav-1">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                     <div class="container">
@@ -81,69 +80,13 @@
                     </div>
                 </nav>
             </div>
+            <!-- nav -->
         </header>
         <div class="pagina container">
-            <!-- Modal -->
-            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-xl">
-                    <div class="modal-content">
-                        <div class="modal-body m-0 p-0">
-                            <div class="label__zapatillas">
-                                <button type="button" class="btn-close position-absolute top-0 end-0 m-3 p-3 "
-                                    data-bs-dismiss="modal" aria-label="Close"></button>
-                                <p>Zapatillas</p>
-                                <div class="zapatillas__contenedor">
-                                    <div class="zapatillas__info">
-                                        <h6>Colores en stock:</h6>
-                                        <ul>
-                                            <li>Blanco</li>
-                                            <li>Negro</li>
-                                        </ul>
-                                        <h6>Talles en stock:</h6>
-                                        <ul class="modal__ul--talles ">
-                                            <li>35</li>
-                                            <li>36</li>
-                                            <li>37</li>
-                                            <li>38</li>
-                                            <li>39</li>
-                                            <li>40</li>
-                                        </ul>
-                                        <h6>Material:</h6>
-                                        <ul>
-                                            <li>Lona reforzada</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="comprar">
-                                        <h6>Como comprar</h6>
-                                        <ol>
-                                            <li> Chequeá que haya stock del producto.</li>
-                                            <li>Comprá y pagá a través de mercado pago o transferencia bancaria.</li>
-                                            <li>Luego enviá el comprobante de pago a: Contacto@chcalzados.com</li>
-                                            <li>Nos contactaremos con vos para coordinar la entrega/envio. </li>
-                                        </ol>
-                                    </div>
-
-                                </div>
-                                <div class="pagar">
-                                    <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-                                        data-preference-id="18341420-7232a18e-fcfb-4cd8-b5a4-fc48707664bb"
-                                        data-source="button">
-                                        </script>
-                                </div>
-
-                                <button type="button"
-                                    class="btn btn-secondary position-absolute bottom-0 end-0 m-2 p-2 "
-                                    data-bs-dismiss="modal">Cerrar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="titulos">
                 <h1>Productos</h1>
             </div>
+            <!-- nav productos -->
             <nav>
                 <div class="nav nav-tabs nav-productos d-flex justify-content-center container" id="nav-tab"
                     role="tablist">
@@ -161,6 +104,7 @@
                     </button>
                 </div>
             </nav>
+            <!-- todos los productos -->
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="productos">
@@ -394,6 +338,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- zapatillas -->
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <div class="productos">
                         <div class="contenedor__productos wow animate__animated animate__fadeIn animate__slow">
@@ -512,6 +457,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- sandalias -->
                 <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <div class="productos">
                         <div class="contenedor__productos wow animate__animated animate__fadeIn animate__slow">
@@ -639,6 +585,65 @@
                     <i class="icon-whatsapp fab fa-whatsapp"></i>
                 </a>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body m-0 p-0">
+                            <div class="label__zapatillas">
+                                <button type="button" class="btn-close position-absolute top-0 end-0 m-3 p-3 "
+                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                <p>Zapatillas</p>
+                                <div class="zapatillas__contenedor">
+                                    <div class="zapatillas__info">
+                                        <h6>Colores en stock:</h6>
+                                        <ul>
+                                            <li>Blanco</li>
+                                            <li>Negro</li>
+                                        </ul>
+                                        <h6>Talles en stock:</h6>
+                                        <ul class="modal__ul--talles ">
+                                            <li>35</li>
+                                            <li>36</li>
+                                            <li>37</li>
+                                            <li>38</li>
+                                            <li>39</li>
+                                            <li>40</li>
+                                        </ul>
+                                        <h6>Material:</h6>
+                                        <ul>
+                                            <li>Lona reforzada</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="comprar">
+                                        <h6>Como comprar</h6>
+                                        <ol>
+                                            <li> Chequeá que haya stock del producto.</li>
+                                            <li>Comprá y pagá a través de mercado pago o transferencia bancaria.</li>
+                                            <li>Luego enviá el comprobante de pago a: Contacto@chcalzados.com</li>
+                                            <li>Nos contactaremos con vos para coordinar la entrega/envio. </li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                                <div class="pagar">
+                                    <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                                        data-preference-id="18341420-7232a18e-fcfb-4cd8-b5a4-fc48707664bb"
+                                        data-source="button">
+                                        </script>
+                                </div>
+
+                                <button type="button"
+                                    class="btn btn-secondary position-absolute bottom-0 end-0 m-2 p-2 "
+                                    data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
         </div>
         <!-- Footer -->
         <footer class="d-flex ">
