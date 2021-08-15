@@ -55,7 +55,7 @@ ul {
 
 /* fondo */
 .b-2 {
-  background-image: url("https://i.postimg.cc/8P0CNzvp/5447182.jpg");
+  background-image: url("../../images/fondo.jpg");
   background-repeat: repeat;
   background-size: 100%;
   font-size: 16px;
@@ -91,7 +91,7 @@ ul {
   max-width: 31.25rem;
   padding: 0.875rem;
   margin: 3.125rem auto;
-  background-image: url("https://i.postimg.cc/Hsd7NngV/fondo2.jpg");
+  background-image: url("../../images/inicio1.jpg");
   font-weight: bolder;
   background-position: center;
   background-size: 120%;
@@ -257,7 +257,7 @@ ul {
   width: 100%;
 }
 .b-inicio #img-home1 {
-  background-image: url("https://i.postimg.cc/Hsd7NngV/fondo2.jpg");
+  background-image: url("../../images/inicio1.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -265,7 +265,7 @@ ul {
   animation: movimiento 15s linear infinite alternate;
 }
 .b-inicio #img-home2 {
-  background-image: url("https://i.postimg.cc/d0B2WC7Q/2x3.jpg");
+  background-image: url("../../images/inicio2.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -273,7 +273,7 @@ ul {
   animation: movimiento 15s linear infinite alternate;
 }
 .b-inicio #img-home3 {
-  background-image: url("https://i.postimg.cc/FRrZmptJ/3x2.jpg");
+  background-image: url("../../images/inicio3.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
